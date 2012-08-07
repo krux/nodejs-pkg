@@ -27,7 +27,7 @@ clean:
 	rm -rf build
 	rm -f config.status
 	dh_quilt_unpatch
-	dh_clean 
+	dh_clean --exclude=orig --exclude=rej
 
 install: build
 	dh_testdir

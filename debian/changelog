@@ -1,3 +1,9 @@
+nodejs (0.8.5-1chl1~lucid2) unstable; urgency=low
+
+  * Don't clean up files that are needed by the build.
+
+ -- Paul Lathrop <paul@tertiusfamily.net>  Tue, 07 Aug 2012 04:17:41 -0700
+
 nodejs (0.8.5-1chl1~lucid1) lucid; urgency=low
 
   * 0.8.5 (stable) release 
